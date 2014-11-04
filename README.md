@@ -25,15 +25,39 @@ release
 
     Typically this is our wiki, where we keep more detailed documentation and notes on things; project details like the original proposal's SOW, credentials to environments, Scrum Notes, Pre-launch checklists, etc.
     
+    Building a Development Matrix
+    A streamlined tool for tracking website construction
+    https://www.lullabot.com/blog/article/building-development-matrix
+
+    
     Naming convention
     com.flext.release.xxx
     
+    https://www.lullabot.com/blog/article/managing-projects-github
+    
+    Referencing and Association
+    Issues can be associated with each other by simply throwing an #issue-number (ex: #3) within the body of another issue. 
+    
+    Issue Labels
+    Tags are a simple and effective way to add metadata to your issues. [custom tags for this project must only be recognized HTML, CSS, or jQuery tags (no new terms and poetry please)]
+    
+    Attach Code to an Existing Issue
+    We've found the in-line commenting with pull requests to be immensely useful since they keep everyone in the project in the loop with changes that are happening ... There's a bit of overhead in that it may take a little longer for some new piece of code to be merged in, so plan accordingly. But this also means we find bugs sooner, typically before they're actually introduced into the master branch of the code ... through a nice command-line tool called Hub [https://github.com/github/hub], we've found there's a way to turn issues into pull requests! Very handy for keeping your discussions and code all in one place and not having to deal with multiple issues about the same thing.
+    
+    Milestones
+    We tend to only plan one sprint ahead, but there is a milestone created for each iteration up until the end of the project. We grab these tickets from the Backlog, which is essentially just any ticket that is NOT in a Sprint.
+    
+    Huboard
+    GitHub's issue tracking system lacks a mechanism for prioritizing your issues ... With Huboard, we now have a means of seeing what the priority tasks are for the week and it gives developers an easy way to see what they should work on next.
+
     
     GitHub Secrets
     https://github.com/blog/967-github-secrets
     
     Cross-Repository Issue References
     You can reference issues between repositories by mentioning user/repository#number in an issue. Once we see something like that — say, github/enterprise#59 — we'll make sure to update issue #59 in github's enterprise repository and let you know where it was referenced from. You can include "fixes user/repo#45" in your commit message, and it will close the referenced issue, provided you have the permission to push to that repository.
+    
+
 
     Hot Branch on Branch Pull Request Action
     Did you know you can use Pull Requests between branches, on the same repository? You don't need to fork repositories to use Pull Requests.
