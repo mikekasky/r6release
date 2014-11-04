@@ -25,6 +25,10 @@ release
 
     Typically this is our wiki, where we keep more detailed documentation and notes on things; project details like the original proposal's SOW, credentials to environments, Scrum Notes, Pre-launch checklists, etc.
     
+    Naming convention
+    com.flext.release.xxx
+    
+    
     GitHub Secrets
     https://github.com/blog/967-github-secrets
     
