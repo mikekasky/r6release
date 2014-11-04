@@ -39,6 +39,9 @@ release
     
     Web Project Management
     http://www.thesambarnes.com/digital-project-management/web-project-management-and-collaboration-using-github/
+    
+    https://huboard.com
+    https://www.zenhub.io
 
 ---    
     
