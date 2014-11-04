@@ -33,6 +33,12 @@ release
     
     Naming convention
     com.flext.release.xxx
+    
+    Using GitHub for Project Management
+    http://liftux.com/posts/using-github-issues-project-management/
+    
+    Web Project Management
+    http://www.thesambarnes.com/digital-project-management/web-project-management-and-collaboration-using-github/
 
 ---    
     
