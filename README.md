@@ -24,3 +24,19 @@ release
     Links to where to find more information.
 
     Typically this is our wiki, where we keep more detailed documentation and notes on things; project details like the original proposal's SOW, credentials to environments, Scrum Notes, Pre-launch checklists, etc.
+    
+    GitHub Secrets
+    https://github.com/blog/967-github-secrets
+    
+    Cross-Repository Issue References
+    You can reference issues between repositories by mentioning user/repository#number in an issue. Once we see something like that — say, github/enterprise#59 — we'll make sure to update issue #59 in github's enterprise repository and let you know where it was referenced from. You can include "fixes user/repo#45" in your commit message, and it will close the referenced issue, provided you have the permission to push to that repository.
+
+    Hot Branch on Branch Pull Request Action
+    Did you know you can use Pull Requests between branches, on the same repository? You don't need to fork repositories to use Pull Requests.
+    
+    Navigate quickly
+    On your repository's home page, type w to quickly bring up a quick filter panel for your branches. Inside of your repository, type t to jump into a quick file selector. Select your file, hit enter, and you're gold. There's also a slew of other shortcut keys you can use, depending on the page- just hit ? to see them.
+    
+    Filter Notifications
+    Email notifications for Issues, Pull Requests, and Gists can easily be filtered by the List-ID header. Look for this header value to sort your notifications, or even forward them to a more appropriate email account. You can filter on *.org.github.com to filter out emails by organization, or repo.org.github.com to filter out emails from a specific repo.
+    
