@@ -29,10 +29,21 @@ release
     A streamlined tool for tracking website construction
     https://www.lullabot.com/blog/article/building-development-matrix
 
+---
     
     Naming convention
     com.flext.release.xxx
+
+---    
     
+    GitHub issues
+    With new GitHub issues 2.0 1 [2] you can use these synonyms to reference an issue and close it (in your commit message):
+
+    fix #xxx   fixes #xxx   fixed #xxx   close #xxx   closes #xxx   closed #xxx   resolve #xxx   resolves #xxx   resolved #xxx
+    
+    Just include #xxx [issue no.] in your commit message to reference an issue. You can also substitute #xxx with gh-xxx. Referencing and closing issues across repos also works: fixes user/repo#xxx
+    
+    Managing Projects with GitHub
     https://www.lullabot.com/blog/article/managing-projects-github
     
     Referencing and Association
@@ -50,15 +61,14 @@ release
     Huboard
     GitHub's issue tracking system lacks a mechanism for prioritizing your issues ... With Huboard, we now have a means of seeing what the priority tasks are for the week and it gives developers an easy way to see what they should work on next.
 
-    
+---
+
     GitHub Secrets
     https://github.com/blog/967-github-secrets
     
     Cross-Repository Issue References
     You can reference issues between repositories by mentioning user/repository#number in an issue. Once we see something like that — say, github/enterprise#59 — we'll make sure to update issue #59 in github's enterprise repository and let you know where it was referenced from. You can include "fixes user/repo#45" in your commit message, and it will close the referenced issue, provided you have the permission to push to that repository.
     
-
-
     Hot Branch on Branch Pull Request Action
     Did you know you can use Pull Requests between branches, on the same repository? You don't need to fork repositories to use Pull Requests.
     
